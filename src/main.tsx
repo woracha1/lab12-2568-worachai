@@ -8,7 +8,7 @@ import { MantineProvider, createTheme, virtualColor } from "@mantine/core";
 const theme = createTheme({
   fontFamily: "Open Sans, sans-serif",
   colors: {
-    Worachai: virtualColor({
+    Worachai: virtualColor({ //สร้างสีของเราเอง
       name: "Worachai",
       dark: "yellow",
       light: "violet",
